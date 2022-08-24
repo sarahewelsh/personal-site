@@ -68,7 +68,7 @@ export default function Layout({ children, home }) {
           </Link>
         </p>
         <p>
-          <Link href="https://www.linkedin.com/in/sarah-welsh-996b1417/">
+          <Link href="https://www.linkedin.com/in/sarahewelshPDX/">
             <a className="text-black hover:text-slate-700">
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
