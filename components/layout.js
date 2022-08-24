@@ -56,6 +56,9 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      <p className="text-center text-sm text-black/50">
+        first name at this domain
+      </p>
       <section className="flex space space-x-4 justify-center py-2">
         <p>
           <Link href="https://github.com/sarahewelsh">
