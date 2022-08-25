@@ -21,11 +21,27 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="text-lg py-2">
+      <section className="text-lg py-2 space-y-4">
         <p>
           I'm a former paralegal turned software developer living in the
           Portland, OR area. I love languages, eating, music, logic games, and
           travel.
+        </p>
+        <p>
+          After graduating from UC Berkeley with a degree in political economy
+          and deciding law school wasn't worth the financial investment, I spent
+          over 20 years as a litigation paralegal, supporting attorneys in the
+          real estate, employment, product liability, and IP fields.
+        </p>
+        <p>
+          In 2020, I decided it was time for a change, enrolled in Oregon State
+          University's online second baccelaureate program, and got my bachelors
+          in computer science before embarking upon my second career.
+        </p>
+        <p>
+          In my free time, I am teaching myself Korean (having already learned
+          Spanish and French in school), doing yard and home improvement
+          projects, and doing Crossfit in my garage.
         </p>
       </section>
       <section className="text-base py-2">
