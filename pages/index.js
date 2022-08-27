@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
         </p>
       </section>
       <p></p>
-      <section className="text-base py-2">
+      <section className="text-base py-4">
         <h2 className="text-lg font-semibold">Past Projects</h2>
         <Link href="https://gotseoul.sarahwel.sh">
           <a className="text-base font-semibold text-black hover:text-slate-700">
