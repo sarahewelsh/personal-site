@@ -43,6 +43,7 @@ export default function Home({ allPostsData }) {
           Spanish and French in school), doing yard and home improvement
           projects, and doing Crossfit in my garage.
         </p>
+        <p></p>
       </section>
       <section className="text-base py-2">
         <h2 className="text-lg font-semibold">Daily Korean Writing Practice</h2>
@@ -59,6 +60,22 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+      </section>
+      <p></p>
+      <section className="text-base py-2">
+        <h2 className="text-lg font-semibold">Past Projects</h2>
+        <Link href="https://gotseoul.sarahwel.sh">
+          <a className="text-base font-semibold text-black hover:text-slate-700">
+            Got Seoul Korean Restaurant
+          </a>
+        </Link>
+        <p className="text-xs text-slate-700">
+          {" "}
+          Project for my web development class - created a sample website for an
+          imaginary Korean restaurant called Got Seoul that allowed customers to
+          get directions to any of their locations, make reservations, and
+          browse the menu
+        </p>
       </section>
     </Layout>
   );
