@@ -43,23 +43,6 @@ export default function Home({ allPostsData }) {
           Spanish and French in school), doing yard and home improvement
           projects, and doing Crossfit in my garage.
         </p>
-        <p></p>
-      </section>
-      <section className="text-base py-2">
-        <h2 className="text-lg font-semibold">Daily Korean Writing Practice</h2>
-        <ul>
-          {allPostsData.map(({ id, date, title }) => (
-            <li key={id} className="py-1">
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className="text-sm">
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
       </section>
       <p></p>
       <section className="text-base py-2">
@@ -76,6 +59,23 @@ export default function Home({ allPostsData }) {
           get directions to any of their locations, make reservations, and
           browse the menu
         </p>
+      </section>
+      <p></p>
+      <section className="text-base py-2">
+        <h2 className="text-lg font-semibold">Daily Korean Writing Practice</h2>
+        <ul>
+          {allPostsData.map(({ id, date, title }) => (
+            <li key={id} className="py-1">
+              <Link href={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <br />
+              <small className="text-sm">
+                <Date dateString={date} />
+              </small>
+            </li>
+          ))}
+        </ul>
       </section>
     </Layout>
   );
